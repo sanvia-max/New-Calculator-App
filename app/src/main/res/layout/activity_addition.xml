@@ -1,0 +1,53 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#A5EAF2AC"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Number 1"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Number 2"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/res"
+        android:layout_height="wrap_content"
+        android:background="#F2B6A2"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Add"/>
+
+    <TextView
+        android:text="Result"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:id="@+id/re"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
